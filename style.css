@@ -71,7 +71,20 @@ nav ul li a {
     background: yellow;
     margin-top: 40px;
 }
+
+.wrapper .footer {
+    position:absolute;
+    top: 140%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.footer h4 {
+    color: white;
+}
 /* wrapper navbar selesai */
+
+/* Main Call to Action */
 .main {
     background: url(the-games-bg.jpg);
     height: 150vh;
@@ -79,10 +92,38 @@ nav ul li a {
 
 .main h4 {
     color: white;
-    
+    margin-left: 100px;
+    padding-top: 350px;
+    font-size: 20px;
 }
 
 .main h1 {
     color: white;
+    margin-left: 100px;
+    font-size: 60px;
 }
 
+.main .image img {
+    height: 350px;
+    width: 700px;
+    margin-left: 480px;
+    margin-top: -50px;
+}
+/* Main Call to Action selesai */
+
+/* Gameplay Options */
+.gameplay {
+    background: url(/assets/features.jpg);
+    background-size: cover;
+    margin-top: 217px;
+    height: 150vh;
+}
+
+.gameplay h4 {
+    margin-left: 800px;
+    padding-top: 250px;
+}
+
+.gameplay h1 {
+    margin-left: 800px;
+}
