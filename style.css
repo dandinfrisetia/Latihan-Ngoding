@@ -127,3 +127,25 @@ nav ul li a {
 .gameplay h1 {
     margin-left: 800px;
 }
+
+.timeline {
+    margin-left: 800px;
+    padding-top: 70px;
+    position: relative;
+}
+
+.timeline .contentsatu h2 {
+    color: gold;
+}
+
+.timeline .contentsatu p {
+    color: white;
+}
+
+.timeline .contentdua h2 {
+    color: gold;
+}
+
+.timeline .contenttiga h2 {
+    color: gold;
+}
