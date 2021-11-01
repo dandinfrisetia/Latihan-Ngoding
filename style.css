@@ -129,9 +129,8 @@ nav ul li a {
 }
 
 .timeline {
-    margin-left: 800px;
+    margin-left: 870px;
     padding-top: 70px;
-    position: relative;
 }
 
 .timeline .contentsatu h2 {
@@ -140,12 +139,15 @@ nav ul li a {
 
 .timeline .contentsatu p {
     color: white;
+    padding-top: 10px;
 }
 
 .timeline .contentdua h2 {
     color: gold;
+    padding-top: 80px;
 }
 
 .timeline .contenttiga h2 {
     color: gold;
+    padding-top: 50px;
 }
