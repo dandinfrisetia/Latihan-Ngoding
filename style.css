@@ -5,7 +5,7 @@
 
 body {
     font-family: sans-serif;
-    padding-bottom: 3000px;
+    padding-bottom: 6000px;
 }
 
 .wrapper {
@@ -43,7 +43,7 @@ nav ul li a {
 /* NAVBAR SELESAI */
 .wrapper .center {
     position:absolute;
-    top: 50%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -52,7 +52,7 @@ nav ul li a {
     color: white;
     font-weight: bold;
     text-align: center;
-    font-size: 13mm;
+    font-size: 50px;
 }
 .center h3{
     color: white;
@@ -60,11 +60,11 @@ nav ul li a {
     text-align: center;
 }
 .buttons button {
-    height:30px;
+    height:40px;
     width: 150px;
     font-size: 10px;
     font-weight: bold;
-    background: yellow;
+    background: rgb(243, 179, 59);
     margin-top: 40px;
 }
 .wrapper .footer {
@@ -117,10 +117,6 @@ nav ul li a {
 .gameplay h1 {
     margin-left: 800px;
 }
-
-
-
-/* TIMELINE */
 .timeline {
     margin-left: 870px;
     padding-top: 70px;
@@ -149,7 +145,6 @@ nav ul li a {
     color: gold;
     padding-top: 50px;
 }
-
 .timeline .contentsatu::after {
     content: '';
     position: absolute;
@@ -186,3 +181,56 @@ nav ul li a {
     left: 803px;
     margin-top: -25px;
 }
+/* GAMEPLAY OPTIONS SELESAI */
+
+/* Game Feature */
+.game {
+    background: url(/assets/requirements.png);
+    height: 145vh;
+}
+
+.game p {
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+.game h1 {
+    padding-top: -60px;
+}
+
+table {
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+table, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    width: 500px;
+  }
+td {
+    color: gold;
+    height: 100px;
+    vertical-align: top;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+table, td, br {
+    color: white;
+}
+
+
+/* TOP SCORE */
+.score {
+    background: black;
+    margin-top: 260px;
+    height: 150vh;
+}
+
+.score, text {
+    padding-top: 400px;
+}
+
+
+
+
